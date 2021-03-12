@@ -6,8 +6,9 @@ Hand pose estimation is the task of finding the joints of the hand from an im
 I used an existing method called Multiview Bootstrapping to find hand key-points. Then I added two features, one is drawing skeletons of hand and the other is the classification of all fingers. 
 
 # Requirment
-- ### OpenCV 4.5.1
-- ### Numpy 1.20.1
+- OpenCV 4.5.1
+- Numpy 1.20.1
+
 - ### prototxt
 The structure of the neural network is stored as a `.prototxt` file. 
 - ### caffemodel
