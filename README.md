@@ -24,4 +24,4 @@ The weights of the layers of the neural network are stored as a `.caffemodel` fi
 - [ ] Multiple hand detection
 
 ### Insperations
-The base model of this project is comes from [here](https://github.com/xar47x/pose)
+The inspirations and the reference goes to [this](https://github.com/xar47x/pose)
