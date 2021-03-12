@@ -14,10 +14,7 @@ The structure of the neural network is stored as a `.prototxt` file.
 - ### caffemodel
 The weights of the layers of the neural network are stored as a `.caffemodel` file.
 
-`.prototext` file is already added in the `Hand` directory. You just need to download the `.caffemodel` file from the link given below and put it on `Hand` directory.
-```
-wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel
-```
+`.prototext` file is already added in the `Hand` directory. You just need to download the `.caffemodel` file from the [link](http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel) and put it on `Hand` directory.
 
 # Features
 - [x] Hand key-points detection
@@ -25,3 +22,6 @@ wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.
 - [x] Classification of fingers
 - [ ] Left and right hand detection
 - [ ] Multiple hand detection
+
+### Insperations
+The base model of this project is comes from [here](https://github.com/xar47x/pose)
